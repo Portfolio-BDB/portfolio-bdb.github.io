@@ -28,12 +28,12 @@
     <section class="section container-fluid mt-n3 pb-3">
       <div class="row justify-content-center">
         <div class="col-lg-12 text-center">
-          <h1 class="mt-0">{{ section.title | default(value="About me and this website") }}</h1>
+          <h1 class="mt-0">{{ section.title | default(value="Portfolio Michel de Boer") }}</h1>
         </div>
         <div class="col-lg-9 col-xl-8 text-center">
-          <p class="lead">{{ section.extra.lead | default(value="I wanted a website to share my blog posts, so here it is!") | safe }}</p>
-          <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ get_url(path=section.extra.url | default(value="/blog/")) | safe }}" role="button">{{ section.extra.url_button | default(value="Go to blogs") }}</a>
-          <p class="meta"><a href="https://github.com/Michel-de-Boer-dev/" target="_blank" rel="noopener noreferrer"> Check my GitHub account</a></p>
+          <p class="lead">{{ section.extra.lead | default(value="Deze website is mijn portfolio voor de basis didactische bekwaamheid cursus. Als overkoepelend LUK komt hier later een stukje over professionele ontwikkeling te staan.") | safe }}</p>
+          <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ get_url(path=section.extra.url | default(value="/blog/")) | safe }}" role="button">{{ section.extra.url_button | default(value="Ga naar opdrachten") }}</a>
+          <p class="meta"><a href="https://github.com/Portfolio-BDB/portfolio-bdb.github.io/" target="_blank" rel="noopener noreferrer">Bekijk deze Github link voor de code</a></p>
         </div>
       </div>
     </section>
@@ -43,28 +43,29 @@
 <section class="section section-sm">
   <div class="container">
     <div class="row justify-content-center text-center">
-        <div class="col-lg-6">
-          <h2 class="h4">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 448 512"><path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/></svg>
-            Cryptography</h2>
-          <p>Over the years I have gained experience with Cryptography. Through my Master Cyber Security, as a student assistent "Introduction to Cryptography".</p>
+        <div class="col-lg-5">
+          <div class="h4">Ontwerpen vanuit kaders en visie</div>
+          <p>Later komt hier een overzichtje en samenvatting van LUK2, met linkjes naar de opdrachten.</p>
         </div>
-        <div class="col-lg-6">
-          <h2 class="h4">Embedded and IoT </h2>
-          <p>I am interested in different IoT and embedded stuff. For my <a href="https://www.cs.ru.nl/bachelors-theses/2020/Michel_de_Boer___1011542___Secure_communication_channels_for_the_mTask_system.pdf" target="_blank" rel="noopener noreferrer">Bachelor thesis I worked with the mTask system for IoT communication channels.</a></p>
+        <div class="col-lg-5">
+          <div class="h4">Ontwerpen van onderwijs</div>
+          <p>LUK 3</p>
         </div>
-        <div class="col-lg-6">
-          <h2 class="h4">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="48" height="48" viewBox="-0.5 -0.5 80 80"><defs></defs><g><g><rect x="0" y="0" width="80" height="80" fill="none" stroke="none" pointer-events="all"/><path d="M 62 62 Z M 61.83 61.82 L 61.83 17.99 L 18.69 17.99 L 18.69 61.82 L 61.83 61.82 Z M 17.33 66.76 C 15.47 66.76 13.75 65.55 13.75 63.24 L 13.75 16.63 C 13.74 14.09 15.71 13.05 17.24 13.05 L 63.21 13.05 C 65.34 13.05 66.73 14.46 66.73 16.67 L 66.73 62.98 C 66.77 65.36 65.4 66.76 63.01 66.76 L 17.33 66.76 Z M 70.32 61.44 L 70.32 56.73 L 80 56.73 L 80 61.44 L 70.32 61.44 Z M 70.32 51.98 L 70.32 47.24 L 80 47.24 L 80 51.98 L 70.32 51.98 Z M 70.32 42.82 L 70.32 38.21 L 80 38.21 L 80 42.82 L 70.32 42.82 Z M 70.32 33.77 L 70.32 29.05 L 80 29.05 L 80 33.77 L 70.32 33.77 Z M 70.32 24.31 L 70.32 19.58 L 80 19.58 L 80 24.31 L 70.32 24.31 Z M 0 24.31 L 0 19.58 L 9.73 19.58 L 9.73 24.31 L 0 24.31 Z M 0 33.77 L 0 29.05 L 9.73 29.05 L 9.73 33.77 L 0 33.77 Z M 0 42.82 L 0 38.21 L 9.73 38.21 L 9.73 42.82 L 0 42.82 Z M 0 51.98 L 0 47.24 L 9.73 47.24 L 9.73 51.98 L 0 51.98 Z M 0 61.44 L 0 56.73 L 9.73 56.73 L 9.73 61.44 L 0 61.44 Z M 19.58 9.74 L 19.58 0 L 24.29 0 L 24.29 9.74 L 19.58 9.74 Z M 29 9.74 L 29 0 L 33.73 0 L 33.73 9.74 L 29 9.74 Z M 38.11 9.74 L 38.11 0 L 42.77 0 L 42.77 9.74 L 38.11 9.74 Z M 47.15 9.74 L 47.15 0 L 51.81 0 L 51.81 9.74 L 47.15 9.74 Z M 56.52 9.74 L 56.52 0 L 61.25 0 L 61.25 9.74 L 56.52 9.74 Z M 56.52 80 L 56.52 70.15 L 61.25 70.15 L 61.25 80 L 56.52 80 Z M 47.15 80 L 47.15 70.15 L 51.81 70.15 L 51.81 80 L 47.15 80 Z M 38.11 80 L 38.11 70.15 L 42.77 70.15 L 42.77 80 L 38.11 80 Z M 29 80 L 29 70.15 L 33.73 70.15 L 33.73 80 L 29 80 Z M 19.58 80 L 19.58 70.15 L 24.29 70.15 L 24.29 80 L 19.58 80 Z" fill="currentColor" stroke="none" pointer-events="all"/> </g><g><rect x="26.25" y="21.25" width="27.5" height="27.5" fill="none" stroke="none" transform="rotate(-45,40,35)" pointer-events="all"/><path d="M 28.97 21.28 C 27.57 21.26 26.43 22.4 26.41 23.81 C 26.4 25.23 27.52 26.39 28.91 26.41 L 30.99 26.43 C 31 26.43 31.01 26.43 31.02 26.43 C 36.56 26.43 40.89 28.84 43.96 32.24 C 47.02 35.64 48.67 40.06 48.67 43.56 C 48.67 43.56 48.67 43.56 48.67 43.57 L 48.68 45.99 C 48.68 47.41 49.81 48.55 51.21 48.55 C 52.61 48.55 53.74 47.4 53.74 45.98 L 53.73 43.56 C 53.73 38.52 51.58 33.09 47.69 28.78 C 43.8 24.46 38.04 21.3 31.02 21.3 L 31.05 21.3 Z M 31.4 30.65 L 28.93 30.66 C 27.53 30.66 26.4 31.81 26.4 33.23 C 26.4 34.64 27.54 35.79 28.93 35.79 L 31.4 35.79 C 33.11 35.79 35.23 36.72 36.83 38.31 C 38.42 39.89 39.45 42.01 39.45 44.12 C 39.45 44.12 39.45 44.13 39.45 44.13 L 39.46 46.05 C 39.47 47.46 40.61 48.61 42.01 48.6 C 43.41 48.59 44.53 47.43 44.52 46.02 L 44.51 44.12 C 44.51 40.37 42.78 37.04 40.36 34.64 C 37.94 32.24 34.77 30.65 31.4 30.65 C 31.4 30.65 31.4 30.65 31.4 30.65 Z M 34.23 44.6 C 34.23 45.66 33.82 46.67 33.08 47.42 C 32.34 48.17 31.35 48.59 30.3 48.59 C 29.26 48.59 28.27 48.17 27.53 47.42 C 26.79 46.67 26.38 45.66 26.38 44.6 C 26.38 42.4 28.14 40.62 30.3 40.62 C 32.47 40.62 34.23 42.4 34.23 44.6 Z" fill="currentColor" stroke="none" transform="rotate(-45,40,35)" pointer-events="all"/></g></g></svg> 
-            Baseband reversing</h2>
-          <p>For my Master Cyber Security internship I have worked with <a href="https://github.com/FirmWire/FirmWire">FirmWire</a>, for my Master Thesis I reverse engineered Qualcomm basebands (Hexagon)</p>
+        <div class="col-lg-5">
+          <div class="h4">Toetsing (BKE)</div>
+          <p>LUK 4</p>
         </div>
-        <div class="col-lg-6">
-          
-          <h2 class="h4"> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-flag-fill" viewBox="0 0 16 16">
-            <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12 12 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A20 20 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a20 20 0 0 0 1.349-.476l.019-.007.004-.002h.001"/>
-          </svg> Capture The Flag</h2>
-          <p>I also enjoy CTF competitions. See our  <a href="https://radboudinstituteof.pwning.nl/" target="_blank" rel="noopener noreferrer">Radboud CTF team website!</a> </p>
+        <div class="col-lg-5">
+          <div class="h4">Didatciek in het HBO</div>
+          <p>LUK 5</p>
+        </div>
+        <div class="col-lg-5">
+          <div class="h4">Begeleiden</div>
+          <p>LUK 6</p>
+        </div>
+        <div class="col-lg-5">
+          <div class="h4">Begeleiden onderzoekend vermogen</div>
+          <p>LUK 7</p>
         </div>
     </div>
   </div>

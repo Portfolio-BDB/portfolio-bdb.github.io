@@ -12,7 +12,7 @@ draft = false
 #
 # Note: We use quoted keys here.
 [extra.author_pages]
-"mdb_mob_eax" = "authors/mdb_mob_eax.md"
+"michel_de_boer" = "authors/michel_de_boer.md"
 +++
 
 The authors of the blog articles.

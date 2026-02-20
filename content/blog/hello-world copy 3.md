@@ -7,7 +7,7 @@ draft = false
 template = "blog/page.html"
 
 [taxonomies]
-authors = ["mdb_mob_eax"]
+authors = ["michel_de_boer"]
 
 [extra]
 lead = "This is the source code of the traditional <b>Hello World</b> program."

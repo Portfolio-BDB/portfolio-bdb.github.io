@@ -7,7 +7,7 @@ draft = false
 template = "blog/page.html"
 
 [taxonomies]
-authors = ["mdb_mob_eax"]
+authors = ["michel_de_boer"]
 
 [extra]
 lead = "Mathematical notation in a project can be enabled by using third party JavaScript libraries."
