@@ -6,6 +6,9 @@ updated = 2026-02-20T00:00:00+00:00
 draft = false
 template = "blog/page.html"
 
+[extra]  
+luk = "LUK 1"
+
 [taxonomies]
 authors = ["michel_de_boer"]
 +++
@@ -20,5 +23,7 @@ Ook help ik graag met het (door)ontwikkelen van het onderwijs. Zo voel ik me bet
 Op het gebied van professional teacher wil ik mij ontwikkelen. Ik vind het leuk om te zien hoe studenten leren en ze uitdagen om extra uitdagingen aan te gaan. Dit is denk ik ook een stuk ervaring, en ik ben benieuwd hoe dit zich ontwikkeld bij mij.
 
 Waarin ik me nog heel weinig herken is de student talent job coach. Het onderdeel coachen is voor mij nog erg nieuw en lastig.
+
+Ik heb een collega gevraagd hoe hij mij ziet als docent. Hij gaf aan dat het lastig is in te schatten zonder les te volgen van mij, maar dat hij zich wel herkent in de verschillende rollen. Na lesbezoeken lijkt het mij ook leuk aan collega's! 
 
 ![Afbeelding niet geladen](/docentenrol.png "Docentenrol")
