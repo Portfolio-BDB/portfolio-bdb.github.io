@@ -1,6 +1,6 @@
 +++
 title = "Voorbereiding op bijeenkomst 2"
-description = "Voobereidingsopdracht van bijeenkomnst 2. Hierin beschrijven we de kaders in het onderwijs"
+description = "Voobereidingsopdracht van bijeenkomst 2. Hierin beschrijven we de kaders in het onderwijs"
 date = 2026-02-23T00:00:00+00:00
 updated = 2026-02-23T00:00:00+00:00
 draft = false
