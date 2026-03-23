@@ -14,11 +14,14 @@ authors = ["michel_de_boer"]
 +++
 
 ## Samenvatting van de opdracht
-Tijdens de les zijn we bezig gegaan met de curriculair spinnenweb. Hierin komen verschillende onderdelen van ... samen.
+Tijdens de les zijn we bezig gegaan met de curriculair spinnenweb. Hierin komen verschillende leerplanonderdelen samen.
 
 Hiervoor maken we gebruik van de huidige OWE die we willen verbeteren. De focus is nog niet op de nieuwe OWE, aangezien deze nog in ontwikkeling is. Zie ook [Opdracht 2](@/blog/Voorbereiding-Les-2.md) voor de kaders van het OWE en een beschrijving van de OWE. 
 
 ![Afbeelding niet geladen](/spinnenweb.png "Curriculaire Spinnenweb")Figuur 1: curriculaire spinnenweb.
+
+{{ resize_image(/spinnenweb.png, width=140, op="fit_height") }}
+test
 
 ### Visie
 Zie [Voorbereiding-Les-2](@/blog/Voorbereiding-Les-2.md) voor meer informatie over de visie. Ik heb ChatGPT gebruikt om de volgende samenvatting te maken van mijn eerdere blogpost.
@@ -54,7 +57,7 @@ Uit eigen analyse, deze leerdoelen/leeruitkomsten zijn vrij specifiek. Dit zal m
 ### Leeractiviteiten
 
 ### Docentenrollen
-De docent geeft vooral uitleg, en fungeert als expert in het vakgebied. Daarnaast is de docent coachend met betrekking tot het maken van de opdrachten. Belangrijk hierin is dat de docent de student zelf laat nadenken met de opdrachten! Het gaat namelijk niet om het antwoord op de opdracht. AI kan ook heel goed de opdrachten maken voor de student...
+De docent geeft vooral uitleg, en fungeert als expert in het vakgebied. Daarnaast is de docent coachend met betrekking tot het maken van de opdrachten. Belangrijk hierin is dat de docent de student zelf laat nadenken met de opdrachten! Het gaat namelijk niet om het antwoord op de opdracht. AI kan ook heel goed de opdrachten maken voor de student.
 
 ### Bronnen en materialen
 De bronnen zijn vooral op Brightspace te vinden. De studenten beschikken over lecture notes gemaakt door een collega. Dit is een soort theorieboek die specifiek de theorie tijdens het vak bespreekt. Qua bron sluit dit erg goed aan, omdat het specifiek gemaakt is met de lessen in gedachte. Daarnaast zijn er opdrachten om te maken. De opdrachten passen bij de andere bronnen, omdat ze specifiek in gaan op de theorie besproken.
