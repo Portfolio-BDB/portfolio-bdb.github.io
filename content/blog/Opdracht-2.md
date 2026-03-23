@@ -1,5 +1,5 @@
 +++
-title = "Portfolio deel A: opdracht 2   "
+title = "Portfolio deel A: opdracht 2"
 description = "Opdracht 2. Hierin beschrijven we de kaders in het onderwijs toepasbaar voor gekozen OWE."
 date = 2026-03-02T00:00:00+00:00
 updated = 2026-03-02T00:00:00+00:00

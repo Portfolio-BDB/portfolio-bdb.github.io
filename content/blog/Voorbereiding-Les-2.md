@@ -30,3 +30,4 @@ Afbeelding 1: Overzicht concept semester 1 OWE/LUKS
 ##### Bronnen
 OER: https://oer.han.nl/5d53c6b9-7836-4e44-97e7-37dd446266e4  
 Iedereen leert!: 2.4 AEA Visie op leren en ontwikkelen.
+ESE team-onderwijsontwikkeling.pptx
